@@ -1,0 +1,100 @@
+font-face{
+    font-family: "Oswald";
+    font-weight: normal;
+    src: url("Oswald-Light.ttf"), url("Oswald-Regular.ttf"), url("Oswald-Medium.ttf"), url("Oswald-SemiBold.ttf");
+    /*Par défaut, la balise body possède des marges margin de 8px.*/
+}
+    
+font-face{
+    font-family: "Courgette";
+    font-weight: normal;
+    src: url("Courgette-Regular.ttf");
+    /*Par défaut, la balise body possède des marges margin de 8px.*/
+}
+   
+    
+ body{  
+    font-family: 'Oswald', 'Courgette', sans-serif;
+    margin: 0;
+ }
+
+ nav a{
+    font-family: 'Courgette', cursive;
+    color : white;
+ }
+ 
+ nav div a{
+    font-family: 'Oswald', normal; 
+    color : white;
+}
+ nav div ul{
+    display: inline-flex;
+    margin-left: 850px;
+    float: right; 
+ }
+
+ .col-12{
+    padding: 0;
+    height: 500px;
+ }
+ .col-12 img{
+    width: 980px;
+    height: 80%;
+    margin: 0;
+    position :absolute;
+    opacity: 0.5;
+    z-index: -1;
+ }
+
+.center{
+    height: 400px;
+    position : centered;
+}
+
+h3{
+    font-family: 'Oswald', normal;
+    text-align: centered;
+}
+
+.col-2 img{
+    width: 130px;
+    height: 60x; 
+}
+
+h4{
+    font-family: 'Courgette', cursive; 
+}
+
+footer button{
+    width: 138px;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 0;
+}
+
+footer{
+    background-color : black;
+    color: white; 
+    font-family: 'Oswald';
+}
+
+footer a{
+    text-decoration: underline;
+}
+footer h3{
+    font-family: 'Courgette';
+}
+h3 a{
+    display: list-item block;
+}
+
+footer ul button{
+    width: 33px;
+    height: 33px;
+    border-radius: 10%;
+}
+
